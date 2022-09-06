@@ -1,0 +1,81 @@
+.Faculty {
+    /* margin: 16px; */
+    width: 40%;
+    margin: 16px auto;
+    padding: 32px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: -1px 3px 4pt 0 #c8c7c7;
+}
+
+.Faculty .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px gray solid;
+}
+
+.Faculty .card-header .faculty-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Faculty .card-header .heart {
+    width: 50px;
+}
+
+.Faculty .card-information .round-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Faculty .card-information .round-container .round-number-container {
+    display: flex;
+}
+
+.Faculty .card-information .round-container .round-number-container .round-num {
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: green;
+    border-radius: 50%;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    color: white;
+}
+
+.Faculty .card-information .round-container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Faculty .card-information .round-container-2 .round-header {
+    color: rgb(210, 92, 131);
+    font-weight: bold;
+}
+
+.Faculty .card-information .round-container-2 .edit-score-box {
+    border: 1px rgb(210, 92, 131) solid;
+    color: rgb(210, 92, 131);
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.Faculty .card-information .score-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Faculty .card-information .score-container .score-summary-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Faculty .card-information .score-container .score-summary-box img {
+    height:50px;
+}
+
+.Faculty .card-information .score-container .min-avg-max-score-container{
+    display: flex;
+    justify-content: space-between;
+}
